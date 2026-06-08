@@ -9,4 +9,4 @@
 - PPI enrichment p-value: < 1e-16  
 
 ### Network Figure
-![STRING PPI Network](
+![STRING PPI Network](PPI_STRING_Assignment_2.png)
