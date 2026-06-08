@@ -32,24 +32,7 @@ Feedback Loop Deregulation and Receptor Up-regulation: Many biological systems o
 Question 4:
 
 To select exactly two experimental candidates from the consensus target panel, a Multi-Criteria Filter Funnel Framework is deployed to synthesize the data across the required dimensions:         
-                    │
-                    ▼
-           ┌─────────────────┐
-           │  Druggability   │ ──► Filter out clinically inaccessible proteins
-           └─────────────────┘
-                    │ (Remaining feasible targets)
-                    ▼
-           ┌─────────────────┐
-           │    Topology     │ ──► Filter for high Degree Centrality & Betweenness
-           └─────────────────┘
-                    │ (Top central candidate nodes)
-                    ▼
-           ┌─────────────────┐
-           │   Functional    │ ──► Match with core KEGG/GO biological pathways
-           └─────────────────┘
-                    │
-                    ▼
-          Targets Chosen
+              
 
 Step 1: Druggability Filter (The Practical Baseline)The total panel is filtered against public pharmacology databases (such as DrugBank or Pharos). A node with massive topological significance is non-viable if it lacks a pocket for small molecules or cannot be targeted by monoclonal antibodies. Structurally undruggable targets are eliminated first to narrow the pool to clinically realistic options.
 
